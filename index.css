@@ -1,0 +1,37 @@
+*{
+  font-family:'Roboto Mono', monospace;
+}
+html, body{
+  margin:0;
+  background-image: url('background1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.countdown_contatiner{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%,-50%);
+  background:rgba(55, 55, 55, 0.5);
+  padding: 30px;
+  text-align: center;
+  color:white;
+  border-radius: 10px;
+}
+
+.countdown_contatiner > * {
+  margin: 0;
+}
+#countdown{
+  font-size: 3em;
+}
+#status{
+  font-size: 6em;
+}
+#message{
+  margin-bottom: -14px;
+}
